@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(to right, rgb(231, 171, 171), rgb(184, 233, 138));
+}
+.container {
+  width: 350px;
+  border: 1px solid;
+  padding: 30px 40px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background: rgb(166, 166, 170);
+}
+.my-form input {
+  display: block;
+  margin: 12px auto;
+  padding: 15px 8px;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 5px;
+}
+.form-submit button {
+  background-color: green;
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px auto;
+}
+.my-form label {
+  font-size: 20px;
+}
+.my-form span {
+  color: red;
+  visibility: hidden;
+  font-size: 18px;
+}
+.my-form.error input {
+  border: 2px solid red;
+  background: pink;
+}
+.my-form.success input {
+  border: 2px solid green;
+}
