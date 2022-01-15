@@ -11,7 +11,12 @@ body {
   padding: 30px 40px;
   margin: 20px auto;
   border-radius: 10px;
-  background: rgb(166, 166, 170);
+  background: linear-gradient(to right, rgb(144, 173, 206), rgb(160, 228, 180));
+  border: none;
+  box-shadow: 0 0 10px 0;
+}
+.my-form {
+  margin-bottom: 6px;
 }
 .my-form input {
   display: block;
